@@ -50,7 +50,7 @@ int main(){
 
 
 
-// M‹ﬁTER› KAYDI ALMA
+// MUSTERI KAYDI ALMA
 
 void sign_up(char ans1){
   
@@ -75,7 +75,7 @@ void sign_up(char ans1){
 
       if(ans2 =='E'|| ans2 =='e'){
       printf("\n\nOGRENCI KARTI\n\n");
-      fprintf(dosya,"\nOGRENC›\n");
+      fprintf(dosya,"\nOGRENC√ù\n");
 
       }else if(ans2=='H'|| ans2=='h'){
       printf("\n\nSTANDART KART\n\n");
@@ -99,7 +99,7 @@ void sign_up(char ans1){
 }
 }
 
-// REF KODU OLUﬁTURMA
+// REF KODU OLU√ûTURMA
 
 void convert_to_letters(int cust_num){
   
@@ -108,7 +108,7 @@ void convert_to_letters(int cust_num){
 
   int j;
 
-    // Say˝y˝ basamaklar˝na ay˝r˝r
+    // Sayiyi basamaklarina ayirir
     int digits[8];
     for (j = 0; j < 8; j++) {
         digits[7-j] = cust_num % 10;
@@ -124,7 +124,7 @@ void convert_to_letters(int cust_num){
     printf("REF No:");
     fprintf(dosya,"ref kodu:");
 
-    // Harfleri yazd˝r˝r
+    // Harfleri yazdirir
     for (j = 0; j < 8; j++) {
         printf("%c", letters[j]);
         fprintf(dosya,"%c",letters[j]);
@@ -134,7 +134,7 @@ void convert_to_letters(int cust_num){
 
 
 
-// S›PAR›ﬁû VERME
+// SIPARIS VERME
 
  void order(int i){
 
@@ -166,7 +166,7 @@ void convert_to_letters(int cust_num){
 }
 
 
-// S›PAR›ﬁ ›PTAL
+// SIPARIS IPTAL
 
 
   void cancel(){
@@ -198,7 +198,7 @@ void convert_to_letters(int cust_num){
 }
 
 
-// ›ND›R›MLER
+// INDIRIMLER
 
 int discount (int sum){
 
